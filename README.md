@@ -1,0 +1,2 @@
+# manifest
+UberSlim Starting Point
