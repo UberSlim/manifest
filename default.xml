@@ -10,7 +10,7 @@
            fetch="git://github.com/"
            review="https://review.slimroms.eu/"/>
 
-  <default revision="refs/tags/android-5.1.1_r8"
+  <default revision="refs/tags/android-5.1.1_r9"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
@@ -330,17 +330,17 @@
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" />
+  <project path="hardware/intel/common/libmix" name="SlimRoms/hardware_intel_common_libmix" remote="github" revision="lp5.1" />
+  <project path="hardware/intel/common/libstagefrighthw" name="SlimRoms/hardware_intel_common_libstagefrighthw" remote="github" revision="lp5.1" />
+  <project path="hardware/intel/common/libva" name="SlimRoms/hardware_intel_common_libva" remote="github" revision="lp5.1" />
   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
-  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
-  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
-  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
-  <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
+  <project path="hardware/intel/common/omx-components" name="SlimRoms/hardware_intel_common_omx-components" remote="github" revision="lp5.1" />
+  <project path="hardware/intel/common/utils" name="SlimRoms/hardware_intel_common_utils" remote="github" revision="lp5.1" />
+  <project path="hardware/intel/common/wrs_omxil_core" name="SlimRoms/hardware_intel_common_wrs_omxil_core" remote="github" revision="lp5.1" />
+  <project path="hardware/intel/img/hwcomposer" name="SlimRoms/hardware_intel_img_hwcomposer" remote="github" revision="lp5.1" />
+  <project path="hardware/intel/img/libdrm" name="SlimRoms/hardware_intel_img_libdrm" remote="github" revision="lp5.1" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
+  <project path="hardware/intel/img/psb_video" name="SlimRoms/hardware_intel_img_psb_video" remote="github" revision="lp5.1" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="lp5.1" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="lp5.1" />
@@ -392,7 +392,7 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="lp5.1" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="lp5.1" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="lp5.1" />
-  <project path="libcore" name="TeamOrion/platform_libcore" remote="github" revision="lp5.1" />
+  <project path="libcore" name="TeamOrion/android_libcore" remote="github" revision="lp5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AudioFX" name="UberSlim/packages_apps_AudioFX" remote="github" revision="lp5.1" />
@@ -536,7 +536,7 @@
 
   <project path="platform_manifest" name="UberSlim/manifest" remote="github" revision="lp5.1" />
 
-  <!-- New Additions for slim -->
+  <!-- SlimVendor -->
   <project path="vendor/slim" name="UberSlim/vendor_slim" remote="github" revision="lp5.1" />
 
   <!-- SlimLauncher -->
