@@ -14,6 +14,10 @@
   <remote  name="us"
            fetch="http://github.com/UberSlim"
            revision="lp5.1" />
+           
+  <remote  name="tm"
+           fetch="https://github.com/TheMuppets"
+           revision="cm-12.1" />
 
   <default revision="refs/tags/android-5.1.1_r13"
            remote="aosp"
