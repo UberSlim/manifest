@@ -10,7 +10,7 @@
            fetch="git://github.com/"
            review="https://review.slimroms.eu/"/>
 
-  <default revision="refs/tags/android-5.1.1_r13"
+  <default revision="refs/tags/android-5.1.1_r10"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
@@ -21,7 +21,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="lp5.1"  />
   <project path="bionic" name="UberSlim/android_bionic" remote="github" revision="lp5.1" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="lp5.1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
@@ -540,7 +539,7 @@
   <project path="vendor/slim" name="UberSlim/vendor_slim" remote="github" revision="lp5.1" />
 
   <!-- SlimLauncher -->
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.1" />
+  <project path="packages/apps/SlimLauncher" name="UberSlim/packages_apps_SlimLauncher" remote="github" revision="lp5.1" />
 
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="lp5.1" />
